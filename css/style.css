@@ -50,10 +50,6 @@ body {
 	height: 72px;
 	background-color: #fff;
 }
-/* 
-.brandCards__card:nth-last-child(-n + 3) {
-	display: none;
-} */
 
 .showMore {
 	display: flex;
@@ -62,4 +58,8 @@ body {
 	margin-top: 46px;
 	color: #1B1C21;
 	font-weight: 500;
+}
+
+.swiper {
+	display: none !important;
 }
