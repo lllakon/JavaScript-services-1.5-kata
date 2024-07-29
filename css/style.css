@@ -1,0 +1,65 @@
+* {
+	font-family: "TT Lakes";
+}
+
+body {
+	background-color: #F2F2F2;
+}
+
+.hidden {
+	display: none !important;
+}
+
+.brandCards__card--hidden {
+	display: none !important;
+}
+
+.showMore__arrow--visible {
+	transform: rotate(-180deg);
+	transition: transform .2s ease-in;
+}
+
+.container {
+	margin: 16px 32px 0 32px;
+}
+
+.pageTitle {
+	padding: 16px 32px 16px 32px;
+	background-color: #fff;
+	color: #7e7e82;
+	font-weight: 400;
+}
+
+.brandCards {
+	display: flex;
+	column-gap: 32px;
+	row-gap: 16px;
+	flex-wrap: wrap;
+	max-width: 1056px;
+
+	height: 155px;
+	overflow: hidden;
+}
+
+.brandCards__card {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 16px;
+	width: 240px;
+	height: 72px;
+	background-color: #fff;
+}
+/* 
+.brandCards__card:nth-last-child(-n + 3) {
+	display: none;
+} */
+
+.showMore {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	margin-top: 46px;
+	color: #1B1C21;
+	font-weight: 500;
+}
