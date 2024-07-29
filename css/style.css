@@ -6,17 +6,12 @@ body {
 	background-color: #F2F2F2;
 }
 
-.hidden {
-	display: none !important;
-}
-
-.brandCards__card--hidden {
-	display: none !important;
+.showMore__arrow {
+	transition: transform .2s ease-in;
 }
 
 .showMore__arrow--visible {
 	transform: rotate(-180deg);
-	transition: transform .2s ease-in;
 }
 
 .container {
